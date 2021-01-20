@@ -1,6 +1,5 @@
 from Expense import *
 
-first_expense = Expense(name='Home Depot', category='Home Improvement', date='today', recurrency=False,
-                        price=47.56)
+first_expense = Expense(name='Home Depot', price='0.78')
 
-print(first_expense.name)
+print(first_expense.id, first_expense.name, first_expense.price)
