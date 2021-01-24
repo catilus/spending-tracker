@@ -1,8 +1,6 @@
 ## INSTALLATION
 # pip install peewee
 
-
-
 from Expense import *
 
 first_expense = Expense(name='Home Depot', price='0.78')
